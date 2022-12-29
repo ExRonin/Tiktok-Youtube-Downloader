@@ -1,0 +1,41 @@
+name: tiktok_downloader
+description: downloader
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.5
+  dartz: ^0.10.1
+  dio: ^4.0.6
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.1
+  flutter_lints: ^2.0.1
+  fluttertoast: ^8.1.1
+  gallery_saver: ^2.3.2
+  get_it: ^7.2.0
+  internet_connection_checker: ^1.0.0+1
+  open_file: ^3.2.1
+  path_provider: ^2.0.11
+  permission_handler: ^10.0.1
+  youtube_explode_dart: ^1.12.3
+  flutter_local_notifications: ^12.0.4
+  google_fonts: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/tiktok_logo.png
+    - assets/images/downloads_icon.png
+    - assets/images/no_data.png
